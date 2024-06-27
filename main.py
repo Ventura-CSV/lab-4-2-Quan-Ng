@@ -5,6 +5,13 @@ def main():
     ########################################
     """
     total = 0
+    for i in range(5):
+        num = int(input('Enter a Number: '))
+        total = num + total
+
+    print("total:",total)
+    
+   
 
     ########################################
     # Do not delete the return statement
